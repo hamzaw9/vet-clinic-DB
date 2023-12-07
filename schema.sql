@@ -1,5 +1,4 @@
 /* Database schema to keep the structure of entire database. */
 
-CREATE TABLE animals (
-    name varchar(100)
-);
+createdb -U hamza vet_clinic
+psql -d vet_clinic
