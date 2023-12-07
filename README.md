@@ -67,27 +67,13 @@ After you're finished please remove all the comments and instructions!
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+The Vet Clinic Database is a simple example of a relational database designed to store information about animals in a veterinary clinic. This repository contains SQL scripts to create the database, define the table structure, insert and manipulate sample data, and run various queries to retrieve information about the animals.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
 
 <details>
 <summary>Database</summary>
@@ -102,21 +88,18 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Created a vet_clinic database**
+- **In the database added an animals table**
+- **Query and update animals table**
+- **Query multiple tables**
+- **Add join tables for visits**
+- **Database performance audit**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](<replace-with-your-deployment-URL>)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -126,9 +109,14 @@ After you're finished please remove all the comments and instructions!
 
 To get a local copy up and running, follow these steps.
 
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
 ### Prerequisites
 
 In order to run this project you need:
+- Install [postgresSQL](https://www.postgresql.org/download/)
 
 <!--
 Example command:
@@ -142,63 +130,26 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
+
 Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:Titus-Kiplagat/vet-clinic-DB.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
+
 Example command:
 
 ```sh
-  cd my-project
-  gem install
+  cd vet-clinic-DB
+  npm install
 ```
---->
 
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,31 +159,13 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Hamza Baig**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@hamzabaig](https://github.com/hamzaw9)
+- LinkedIn: [hamzabaig](https://www.linkedin.com/in/hamzabaig-/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -260,32 +193,6 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+I would like to thank **Microverse**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
