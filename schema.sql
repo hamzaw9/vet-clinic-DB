@@ -23,4 +23,9 @@ CREATE TABLE owners (
     age INTEGER
 );
 
+CREATE TABLE species (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR
+);
+
 
